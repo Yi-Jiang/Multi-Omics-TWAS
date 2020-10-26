@@ -3,6 +3,7 @@ Integrating genetic regulation of multi-omics levels facilitates elucidating sch
 
 ## Workflow
 ![workflow](./.img/workflow.png)
+<img src=".img/workflow.png">
 
 ## Main results
 
