@@ -29,4 +29,5 @@ Integrating genetic regulation of multi-omics levels facilitates elucidating sch
 - [ ] Joint-omics TWAS using MR-JTI
 
 ### Functional support of the schizophrenia risk genes
-- 
+- [ ] HiC, enhancer, etc.
+- [ ] drug target, known risk genes, etc.
