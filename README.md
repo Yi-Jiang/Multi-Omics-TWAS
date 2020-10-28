@@ -2,14 +2,21 @@
 Integrating genetic regulation of multi-omics levels facilitates elucidating schizophrenia pathogenesis
 
 ## Workflow
-![workflow](./.img/workflow.png)
-<img src=".img/workflow.png" width="700" />
+<img src=".img/workflow.png" width="750" />
 
 ## Main results
 
-### Genetic regulation are mostly shared at mRNA and protein levels
-- [x] Correlation of QTLs at different omics levels
-- [x] Pi1 at different omics levels
+### Genetic regulation are mostly shared from mRNA to protein level
+<img src=".img/cor.qtleffs.png" width="750" />
+> Correlation of QTL (P < 0.05) effect sizes at different omics levels
+
+Cutoff | Proportion of eQTLs preserved in rQTLs | Proportion of rQTLs preserved in sQTLs | Proportion of sQTLs preserved in pQTLs | Proportion of rQTLs preserved in pQTLs | Proportion of eQTLs preserved in pQTLs
+--- | --- | --- | --- | --- | ---
+P < 1e-2 | 0.422 | 0.189 | 0.185 | 0.382 | 0.262
+P < 1e-4 | 0.611 | 0.398 | 0.189 | 0.444 | 0.364
+P < 1e-6 | 0.601 | 0.457 | 0.445 | 0.822 | 0.397
+P < 1e-8 | 0.701 | 0.480 | 0.306 | 0.897 | 0.485
+> Pi1 at different omics levels
 
 ### Genetic regulation signals at different omics levels implicate schizophrenia pathogenesis
 - [x] LDSC (QTL loci at different omics levels contribute to schizophrenia heritability)
