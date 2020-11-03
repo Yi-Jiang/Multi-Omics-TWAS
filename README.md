@@ -9,7 +9,7 @@ Integrating genetic regulation of multi-omics levels elucidates schizophrenia pa
 ### Genetic regulation are mostly shared from mRNA to protein level
 - [x] QTL effect sizes are highly correlated among eQTL, rQTL, and pQTL
   - [x] QTL effect sizes decrease from mRNA to protein level
-- [x] QTL P values are highly preserved at mRNA, Ribo-Seq, and protein levels (Pi1)
+- [x] QTL P values are highly preserved at mRNA, Ribo-Seq, and protein levels ($\pi$1)
 
 ### Genetic regulation signals at different omics levels implicate schizophrenia pathogenesis
 - [x] QTL loci at different omics levels contribute to schizophrenia heritability (LDSC)
@@ -21,10 +21,10 @@ Integrating genetic regulation of multi-omics levels elucidates schizophrenia pa
 - [x] "TWAS" analysis of different omics levels identified unique risk genes, most of the risk genes are exclusively in original models (comparing with conditional models)
 
 ### Integrating genetic regulation of multi-omics levels identifies schizophrenia risk genes
-- [ ] meta analysis of TWAS at differemt omics levels
+- [ ] meta analysis of TWAS at different omics levels
 - [ ] colocalization of TWAS signals at different omics levels
 - [ ] Joint-omics TWAS using MR-JTI
 
-### Functional support of the schizophrenia risk genes
+### Functional support and possible mechanism behind the schizophrenia risk genes
 - [ ] HiC, enhancer, etc.
 - [ ] drug target, known risk genes, MGI, OMIM, GWAS findings, DEGs, pathways, etc.
