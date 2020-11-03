@@ -9,7 +9,7 @@ Integrating genetic regulation of multi-omics levels elucidates schizophrenia pa
 ### Genetic regulation are mostly shared from mRNA to protein level
 - [x] QTL effect sizes are highly correlated among eQTL, rQTL, and pQTL
   - [x] QTL effect sizes decrease from mRNA to protein level
-- [x] QTL P values are highly preserved at mRNA, Ribo-Seq, and protein levels ($\pi1$)
+- [x] QTL P values are highly preserved at mRNA, Ribo-Seq, and protein levels (Pi1)
 
 ### Genetic regulation signals at different omics levels implicate schizophrenia pathogenesis
 - [x] QTL loci at different omics levels contribute to schizophrenia heritability (LDSC)
