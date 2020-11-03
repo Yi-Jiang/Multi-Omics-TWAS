@@ -27,4 +27,4 @@ Integrating genetic regulation of multi-omics levels elucidates schizophrenia pa
 
 ### Functional support of the schizophrenia risk genes
 - [ ] HiC, enhancer, etc.
-- [ ] drug target, known risk genes, etc.
+- [ ] drug target, known risk genes, MGI, OMIM, GWAS findings, DEGs, pathways, etc.
