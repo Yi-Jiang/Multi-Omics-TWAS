@@ -19,4 +19,9 @@
     * **(A)** Not filtering any multi-mapped reads (Number of variants: 3,118,360)
     * **(B)** Removing all secondary mapped reads by filtering out the reads with tag "0x100" in the BAM file (Number of variants: 3,118,413)
     * **(C)** Removing all multi-mapped reads (the secondary mapped reads and all the other reads with the same read names) (Number of variants: 3,108,594)
-
+* Comparison of genotypes called from the three approaches:
+    <img src="../.img/multimap.counts.png" width="550" />
+* Allele frequencies distribution in the 1000 Genomes project (EUR):
+    <img src="../.img/multimap.af.png" width="800" />
+* Distribution of unique variants before and after removing secondary/multiple mapped reads:
+    <img src="../.img/multimap.variants_distribution.png" width="800" />
