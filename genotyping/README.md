@@ -29,9 +29,10 @@
     ![Test Image 3]("/../images/.png")
     ![Test Image 4]("https://github.com/Yi-Jiang/Multi-Omics-TWAS/tree/main/images/.png")
     ![Test Image 5]("https://github.com/Yi-Jiang/Multi-Omics-TWAS/images/.png")
-    ![Test Image 3](/../images/.png)
-    ![Test Image 4](https://github.com/Yi-Jiang/Multi-Omics-TWAS/tree/main/images/.png)
-    ![Test Image 5](https://github.com/Yi-Jiang/Multi-Omics-TWAS/images/.png)
+    ![Test Image 6](/../images/.png)
+    ![Test Image 7](https://github.com/Yi-Jiang/Multi-Omics-TWAS/tree/main/images/.png)
+    ![Test Image 8](https://github.com/Yi-Jiang/Multi-Omics-TWAS/images/.png)
+    * <img src="../images/multimap.counts.png" raw=true width="550" />
     * <img src="../images/multimap.counts.png" width="550" />
     * ENCODE blacklist: Amemiya et al. Scientific Reports 2019
 * At variant position level, we have 3105365 variants consistently called by the three approaches. At genotype level, we have 3105210 genotypes consistently called by the three approaches. So, we have 155 consistently called variants with different genotypes. What's the distribution of the 155 genotypes?
