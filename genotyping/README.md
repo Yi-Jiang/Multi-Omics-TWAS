@@ -30,6 +30,7 @@
     ![Test Image 4]("https://github.com/Yi-Jiang/Multi-Omics-TWAS/tree/main/images/.png")
     ![Test Image 5]("https://github.com/Yi-Jiang/Multi-Omics-TWAS/images/.png")
     ![Test Image 6](/../images/.png)
+    ![Test Image 6](/images/.png)
     ![Test Image 7](https://github.com/Yi-Jiang/Multi-Omics-TWAS/tree/main/images/.png)
     ![Test Image 8](https://github.com/Yi-Jiang/Multi-Omics-TWAS/images/.png)
     * <img src="../images/multimap.counts.png" raw=true width="550" />
