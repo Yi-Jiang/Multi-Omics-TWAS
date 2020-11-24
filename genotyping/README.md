@@ -24,7 +24,8 @@
     * **(B)** Removing all secondary mapped reads by filtering out the reads with tag "0x100" in the BAM file (Number of variants: 3,118,413)
     * **(C)** Removing all multi-mapped reads (the secondary mapped reads and all the other reads with the same read names) (Number of variants: 3,108,594)
 * Comparison of genotypes called from the three approaches:
-    * <img src="../images/multimap.counts.png" width="960" height="240" alt="" />
+    * <img src="https://github.com/Yi-Jiang/Multi-Omics-TWAS/tree/main/images/multimap.counts.png" width="960" height="240" alt="" />
+    * <img src="https://github.com/Yi-Jiang/Multi-Omics-TWAS/images/multimap.counts.png" width="960" height="240" alt="" />
     * <img src="../images/multimap.counts.png" width="550" />
     * ENCODE blacklist: Amemiya et al. Scientific Reports 2019
 * At variant position level, we have 3105365 variants consistently called by the three approaches. At genotype level, we have 3105210 genotypes consistently called by the three approaches. So, we have 155 consistently called variants with different genotypes. What's the distribution of the 155 genotypes?
