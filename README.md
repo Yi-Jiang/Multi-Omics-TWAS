@@ -2,7 +2,7 @@
 Integrating genetic regulation of multi-omics levels elucidates schizophrenia pathogenesis
 
 ## Workflow
-<img src=".img/workflow.png" width="750" />
+<img src="images/workflow.png" width="750" />
 
 ## Main results
 
