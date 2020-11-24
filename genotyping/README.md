@@ -5,6 +5,10 @@
 ## Assess genotyping accuracy
 * To assess the genotyping accuracy of low coverage sequencing, whole genome sequencing data (average depth: 55X) of the three samples from CEPH Family 1463 (NA12877, NA12891, NA12892) were downloaded. For each sample, we subsampled the sequencing reads to an average of 5X to match the depth of the PsychENCODE BrainGVEX low pass WGS data. We called genotypes for the 288 samples (3 downsampled samples from CEPH and 285 from PsychENCODE BrainGVEX) using the same genotyping procedure as depicted above. Genotypes called from the CEPH 55X data can be used as a gold standard. For the three CEPH samples, we can compare the genotypes called by 5X data and 55X data, and calculate sensitivities and specificities.
 
+## Flip PsychChip and Affymetrix
+* PsychChip: Variants flipped by McCarthy Group Tools.
+* Affymetrix: Variants flipped by Shuang Liu at Yale University.
+
 ## Correct sample IDs for WGS, PsychChip, and Affymetrix
 * DRAMS (Jiang et al. 2020) was used to correct sample IDs based on genotype matching in six datasets in PsychENCODE BrainGVEX (WGS, PsychChip, Affymetrix, RNA-seq, Ribo-seq, and ATAC-seq). A sample ID translation table was generated. All sample IDs were translated to the true IDs based on the sample ID translation table. 
 
@@ -20,6 +24,7 @@
     * **(B)** Removing all secondary mapped reads by filtering out the reads with tag "0x100" in the BAM file (Number of variants: 3,118,413)
     * **(C)** Removing all multi-mapped reads (the secondary mapped reads and all the other reads with the same read names) (Number of variants: 3,108,594)
 * Comparison of genotypes called from the three approaches:
+    * <img src="../.img/multimap.counts.png" width="960" height="240" alt="" />
     * <img src="../.img/multimap.counts.png" width="550" />
     * ENCODE blacklist: Amemiya et al. Scientific Reports 2019
 * At variant position level, we have 3105365 variants consistently called by the three approaches. At genotype level, we have 3105210 genotypes consistently called by the three approaches. So, we have 155 consistently called variants with different genotypes. What's the distribution of the 155 genotypes?
