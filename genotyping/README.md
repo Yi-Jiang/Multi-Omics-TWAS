@@ -27,6 +27,7 @@
     * <img src="../images/multimap.counts.png" width="550" />
     * ENCODE blacklist: Amemiya et al. Scientific Reports 2019
 * At variant position level, we have 3105365 variants consistently called by the three approaches. At genotype level, we have 3105210 genotypes consistently called by the three approaches. So, we have 155 consistently called variants with different genotypes. What's the distribution of the 155 genotypes?
+    [<img src="../images/multimap.consistentlycalled.png" width="400">](../images/multimap.consistentlycalled.png)
     * <img src="../images/multimap.consistentlycalled.png" width="550" />
 * Allele frequencies distribution in the 1000 Genomes project (EUR):
     * <img src="../images/multimap.af.png" width="800" />
