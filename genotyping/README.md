@@ -25,11 +25,18 @@
     * **(C)** Removing all multi-mapped reads (the secondary mapped reads and all the other reads with the same read names) (Number of variants: 3,108,594)
 * Comparison of genotypes called from the three approaches:
     * <img src="../images/multimap.counts.png" width="550" />
-    * ENCODE blacklist: Amemiya et al. Scientific Reports 2019
+    * ENCODE blacklist: Amemiya et al. Scientific Reports 2019 [Download](https://github.com/Boyle-Lab/Blacklist/)
 * At variant position level, we have 3105365 variants consistently called by the three approaches. At genotype level, we have 3105210 genotypes consistently called by the three approaches. So, we have 155 consistently called variants with different genotypes. What's the distribution of the 155 genotypes?
     [<img src="../images/multimap.consistentlycalled.png" width="400">](../images/multimap.consistentlycalled.png)
     * <img src="../images/multimap.consistentlycalled.png" width="550" />
 * Allele frequencies distribution in the 1000 Genomes project (EUR):
     * <img src="../images/multimap.af.png" width="800" />
+    * **(A)**: Variants/genotypes identified only by approach A
+    * **(B)**: Variants/genotypes identified only by approach B
+    * **(C)**: Variants/genotypes identified only by approach C
+    * **(AB)**: Variants/genotypes identified only by approach A & B
+    * **(AC)**: Variants/genotypes identified only by approach A & C
+    * **(BC)**: Variants/genotypes identified only by approach B & C
+    * **(ABC)**: Variants/genotypes identified only by approach A & B & C
 * Distribution of unique variants before and after removing secondary/multiple mapped reads:
     * <img src="../images/multimap.variants_distribution.png" width="800" />
