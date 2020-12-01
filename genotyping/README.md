@@ -1,3 +1,6 @@
+# Workflow
+<img src="../images/genotyping.png" width="550" />
+
 # Call genotypes and QC
 ## Call genotypes from WGS data
 * For the 285 samples with low pass whole genome sequencing (WGS) data, we called genotypes using the BWA+GATK gold standard pipeline. Briefly speaking, all reads were mapped to the human reference genome (hg19) using the BWA software, after removing sequencing adapters and low-quality bases. PCR duplicates were removed using the MarkDuplicates package in PicardTools. GATK IndelRealigner and BaseRecalibrator were used for recalibrating reads mapping quality. Genotypes were called using GATK HaplotypeCaller. Variant quality score recalibration (VQSR) procedure was performed by GATK VariantRecalibrator. The variants passed VQSR were retained. 
